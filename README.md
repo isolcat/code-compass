@@ -4,6 +4,7 @@
 ## React
 - [The Interactive Guide to Rendering in React](https://ui.dev/why-react-renders)
 - [堪称 React 版本的 Pinia，这才是你该选的 React 状态管理库！](https://juejin.cn/post/7225934630506643513)
+- [Stop Using “&&” for Conditional Rendering in React Without Thinking](https://medium.com/geekculture/stop-using-for-conditional-rendering-in-react-a0f7b96200f8)
 
 ## Vue
 - [Vue官方文档里没告诉你的神秘钩子——@hook](https://juejin.cn/post/7006616545119961101)
