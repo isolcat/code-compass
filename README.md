@@ -27,6 +27,7 @@
 - [前端工程化](https://woai3c.github.io/introduction-to-front-end-engineering/08.html)
 - [前端知识体系梳理](https://juejin.cn/post/7209689211871035452)
 - [git命令速查表](https://pic1.58cdn.com.cn/nowater/webim/big/n_v2457f8f6330df4ba5be40810fd232e51e.jpg)
+- [What does LGTM mean in GitHub code reviews](https://www.unosquare.com/blog/what-does-lgtm-mean-in-github-code-reviews)
 
 ## 前端优化
 - [自动化注入骨架屏](https://segmentfault.com/a/1190000040463903)
