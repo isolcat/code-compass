@@ -34,5 +34,6 @@
 
 ## 前端优化
 - [自动化注入骨架屏](https://segmentfault.com/a/1190000040463903)
+- [一种自动化生成骨架屏的方案](https://github.com/Jocs/jocs.github.io/issues/22)
 
 
