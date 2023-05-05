@@ -12,6 +12,7 @@
 
 ## Google Plugin
 - [Page Lifecycle API](https://developer.chrome.com/blog/page-lifecycle-api)
+- [Developing a Chrome Extension](https://medium.com/@brucelim/developing-a-chrome-extension-2dd858f99e9)
 
 ## 埋点
 - [前端埋点实现方案✔](https://juejin.cn/post/7094146488439144455)
