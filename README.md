@@ -7,6 +7,7 @@
 - [Stop Using “&&” for Conditional Rendering in React Without Thinking](https://medium.com/geekculture/stop-using-for-conditional-rendering-in-react-a0f7b96200f8)
 - [300+ React Interview Questions](https://dev.to/sakhnyuk/300-react-interview-questions-2ko4)
 - [7 React Projects for Beginners in 2023 (+ Code)](https://medium.com/webdevhero/7-react-projects-for-beginners-in-2023-code-1430229684b6)
+- [react入门文章,可以快速了解react](https://www.taniarascia.com/getting-started-with-react)
 
 ## Vue
 - [Vue官方文档里没告诉你的神秘钩子——@hook](https://juejin.cn/post/7006616545119961101)
