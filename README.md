@@ -9,6 +9,7 @@
 - [7 React Projects for Beginners in 2023 (+ Code)](https://medium.com/webdevhero/7-react-projects-for-beginners-in-2023-code-1430229684b6)
 - [react入门文章,可以快速了解react](https://www.taniarascia.com/getting-started-with-react)
 - [深度解析使用索引作为 key 的负面影响](https://robinpokorny.com/blog/index-as-a-key-is-an-anti-pattern)
+- [react原理解析](https://react.iamkasong.com)
 
 ## Vue
 - [Vue官方文档里没告诉你的神秘钩子——@hook](https://juejin.cn/post/7006616545119961101)
