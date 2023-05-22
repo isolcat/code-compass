@@ -38,6 +38,7 @@
 - [What does LGTM mean in GitHub code reviews](https://www.unosquare.com/blog/what-does-lgtm-mean-in-github-code-reviews)
 - [Bypass Paywalls is a web browser extension to help bypass paywalls for selected sites](https://github.com/iamadamdev/bypass-paywalls-chrome)
 - [可用于低代码平台的拖拽功能的视线](https://github.com/SortableJS/Vue.Draggable)
+- [前端好文推荐(英译中)](https://github.com/xitu/gold-miner/blob/master/front-end.md)
 
 
 ## 前端优化
