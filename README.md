@@ -45,5 +45,6 @@
 - [自动化注入骨架屏](https://segmentfault.com/a/1190000040463903)
 - [一种自动化生成骨架屏的方案](https://github.com/Jocs/jocs.github.io/issues/22)
 - [使用Chrome扩展程序来生成网页骨架屏](https://shymean.com/article/使用Chrome扩展程序生成网页骨架屏)
+- [SSO单点登录](https://aws.amazon.com/tw/what-is/sso)
 
 
