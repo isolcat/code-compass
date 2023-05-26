@@ -11,6 +11,7 @@
 - [深度解析使用索引作为 key 的负面影响](https://robinpokorny.com/blog/index-as-a-key-is-an-anti-pattern)
 - [react原理解析](https://react.iamkasong.com)
 - [理解 React，但不理解 Redux，该如何通俗易懂的理解 Redux？](https://www.zhihu.com/question/41312576/answer/90782136)
+- [Redux Tutorial: An Overview and Walkthrough](https://www.taniarascia.com/redux-react-guide)
 
 ## Vue
 - [Vue官方文档里没告诉你的神秘钩子——@hook](https://juejin.cn/post/7006616545119961101)
