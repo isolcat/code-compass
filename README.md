@@ -42,6 +42,7 @@
 - [可用于低代码平台的拖拽功能的视线](https://github.com/SortableJS/Vue.Draggable)
 - [前端好文推荐(英译中)](https://github.com/xitu/gold-miner/blob/master/front-end.md)
 - [无头浏览器初探](https://juejin.cn/post/6844903504276881422)
+- [JS正则表达式完整教程（略长）](https://juejin.cn/post/6844903487155732494)
 
 
 ## 前端优化
