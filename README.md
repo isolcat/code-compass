@@ -15,6 +15,7 @@
 
 ## Vue
 - [Vue官方文档里没告诉你的神秘钩子——@hook](https://juejin.cn/post/7006616545119961101)
+- [chatgpt 教我用200行代码写一个简易的Vue框架](https://my.oschina.net/u/4863191/blog/9946020)
 
 ## Google Plugin
 - [Page Lifecycle API](https://developer.chrome.com/blog/page-lifecycle-api)
