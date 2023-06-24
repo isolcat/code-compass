@@ -44,6 +44,7 @@
 - [前端好文推荐(英译中)](https://github.com/xitu/gold-miner/blob/master/front-end.md)
 - [无头浏览器初探](https://juejin.cn/post/6844903504276881422)
 - [JS正则表达式完整教程（略长）](https://juejin.cn/post/6844903487155732494)
+- [Chrome Developers](https://developer.chrome.com)
 
 
 ## 前端优化
