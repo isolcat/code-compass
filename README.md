@@ -45,6 +45,7 @@
 - [无头浏览器初探](https://juejin.cn/post/6844903504276881422)
 - [JS正则表达式完整教程（略长）](https://juejin.cn/post/6844903487155732494)
 - [Chrome Developers](https://developer.chrome.com)
+- [21+ Browser Dev Tools & Tips You Need To Know](https://www.youtube.com/watch?v=TcTSqhpm80Y)
 
 
 ## 前端优化
