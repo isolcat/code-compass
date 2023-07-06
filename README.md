@@ -20,6 +20,7 @@
 ## CSS
 - [A History of CSS Through Fifteen Years of 24 ways](https://24ways.org/2019/a-history-of-css-through-15-years-of-24-ways)
 - [css game](https://codingfantasy.com/games)
+- [CSS Reference](https://cssreference.io)
 
 ## Google Plugin
 - [Page Lifecycle API](https://developer.chrome.com/blog/page-lifecycle-api)
