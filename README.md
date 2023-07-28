@@ -21,6 +21,7 @@
 - [A History of CSS Through Fifteen Years of 24 ways](https://24ways.org/2019/a-history-of-css-through-15-years-of-24-ways)
 - [css game](https://codingfantasy.com/games)
 - [CSS Reference](https://cssreference.io)
+- [关于line-height居中的兼容性问题](https://segmentfault.com/q/1010000021302265)
 
 ## Google Plugin
 - [Page Lifecycle API](https://developer.chrome.com/blog/page-lifecycle-api)
@@ -61,6 +62,5 @@
 - [SSO单点登录](https://aws.amazon.com/tw/what-is/sso)
 - [浅谈单点登录 SSO 实现方案 | StartDT Tech Lab 06](https://xie.infoq.cn/article/9be573d86ee2d7528eb84fdb7)
 
-## CSS
-- [关于line-height居中的兼容性问题](https://segmentfault.com/q/1010000021302265)
+
 
