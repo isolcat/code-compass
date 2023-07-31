@@ -60,6 +60,7 @@
 - [使用Chrome扩展程序来生成网页骨架屏](https://shymean.com/article/使用Chrome扩展程序生成网页骨架屏)
 - [SSO单点登录](https://aws.amazon.com/tw/what-is/sso)
 - [浅谈单点登录 SSO 实现方案 | StartDT Tech Lab 06](https://xie.infoq.cn/article/9be573d86ee2d7528eb84fdb7)
+- [Largest Contentful Paint 最大内容绘制 (LCP)](https://web.dev/i18n/zh/lcp)
 
 
 
