@@ -66,5 +66,6 @@
 - [浅谈单点登录 SSO 实现方案 | StartDT Tech Lab 06](https://xie.infoq.cn/article/9be573d86ee2d7528eb84fdb7)
 - [Largest Contentful Paint 最大内容绘制 (LCP)](https://web.dev/i18n/zh/lcp)
 
-
+## 浏览器内核
+- [Inside look at modern web browser (part 1)](https://developer.chrome.com/blog/inside-browser-part1)
 
