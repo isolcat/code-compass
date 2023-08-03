@@ -25,6 +25,7 @@
 - [css game](https://codingfantasy.com/games)
 - [CSS Reference](https://cssreference.io)
 - [关于line-height居中的兼容性问题](https://segmentfault.com/q/1010000021302265)
+- [CSS 选择器，一篇就够了](https://segmentfault.com/a/1190000013424772)
 
 ## Google Plugin
 - [Page Lifecycle API](https://developer.chrome.com/blog/page-lifecycle-api)
