@@ -19,6 +19,7 @@
 
 ## JavaScript
 - [如何模拟实现JS的new操作符](https://www.freecodecamp.org/chinese/news/javascript-new-operator)
+- [JavaScript 运行机制详解：再谈Event Loop](http://www.ruanyifeng.com/blog/2014/10/event-loop.html)
 
 ## CSS
 - [A History of CSS Through Fifteen Years of 24 ways](https://24ways.org/2019/a-history-of-css-through-15-years-of-24-ways)
