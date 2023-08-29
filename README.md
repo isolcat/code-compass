@@ -21,6 +21,7 @@
 - [如何模拟实现JS的new操作符](https://www.freecodecamp.org/chinese/news/javascript-new-operator)
 - [JavaScript 运行机制详解：再谈Event Loop](http://www.ruanyifeng.com/blog/2014/10/event-loop.html)
 - [🤪🤪别看了，进来一起手写一个promise吧](https://juejin.cn/post/7174988885204664380)
+- [JavaScript 侦测手机浏览器的五种方法](https://www.ruanyifeng.com/blog/2021/09/detecting-mobile-browser.html)
 
 ## CSS
 - [A History of CSS Through Fifteen Years of 24 ways](https://24ways.org/2019/a-history-of-css-through-15-years-of-24-ways)
