@@ -9,6 +9,7 @@
 
 <body>
     <script>
+        //无需新开数组
         //交换两个元素的值
         let swap = function (arr, i, j) {
             [arr[i], arr[j]] = [arr[j], arr[i]]
@@ -44,6 +45,34 @@
         quicksort(arr, 0, arr.length - 1);
 
         console.log("排序后数组:", arr);
+    </script>
+
+    <script>
+        //新开数组的快排，取中间的数为基准值
+        function quickSort(arr) {
+            if (arr.length <= 1) {
+                return arr; // 如果数组长度小于等于1，无需排序
+            }
+
+            const pivot = arr[Math.floor(arr.length / 2)]; // 选择基准元素
+            const left = [];
+            const right = [];
+
+            for (const element of arr) {
+                if (element < pivot) {
+                    left.push(element); // 小于基准的放在左边
+                } else if (element > pivot) {
+                    right.push(element); // 大于基准的放在右边
+                }
+            }
+
+            return [...quickSort(left), pivot, ...quickSort(right)]; // 递归排序左右子数组
+        }
+
+        const unsortedArray = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5];
+        const sortedArray = quickSort(unsortedArray);
+
+        console.log(sortedArray); // 输出排序后的数组
     </script>
 </body>
 
