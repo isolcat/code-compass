@@ -34,6 +34,23 @@
         console.log(person.age);  // 输出: 30
 
     </script>
+
+    <script>
+        function myNew(fn, ...args) {
+            // 创建空对象
+            const obj = {}
+            obj.__proto__ = fn.prototype
+            fn.apply(obj, args)
+            return obj
+        }
+
+        function person(name, age) {
+            this.name = name
+            this.age = age
+        }
+        const person = myNew(person, 'John', 30)
+        console.log(person.name)
+    </script>
 </body>
 
 </html>
