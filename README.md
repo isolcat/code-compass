@@ -32,6 +32,7 @@
 - [CSS 选择器，一篇就够了](https://segmentfault.com/a/1190000013424772)
 - [不要再问我移动适配的问题了](https://segmentfault.com/a/1190000017784801)
 - [使用Flexible实现手淘H5页面的终端适配](https://github.com/amfe/article/issues/17)
+- [重新构想原子化 CSS](https://antfu.me/posts/reimagine-atomic-css-zh)
 
 ## Google Plugin
 - [Page Lifecycle API](https://developer.chrome.com/blog/page-lifecycle-api)
