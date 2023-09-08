@@ -90,3 +90,4 @@
 - [协议驱动](https://formilyjs.org/zh-CN/guide#%E5%8D%8F%E8%AE%AE%E9%A9%B1%E5%8A%A8)
 - [JSON Schema](https://json-schema.org)
 - [从实现原理看低代码](https://zhuanlan.zhihu.com/p/451340998)
+- [Understanding JSON Schema](https://json-schema.org/understanding-json-schema/index.html)
