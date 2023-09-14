@@ -26,6 +26,7 @@
 - [🤪🤪别看了，进来一起手写一个promise吧](https://juejin.cn/post/7174988885204664380)
 - [JavaScript 侦测手机浏览器的五种方法](https://www.ruanyifeng.com/blog/2021/09/detecting-mobile-browser.html)
 - [JS-两个空数组为什么不相等?](https://www.cnblogs.com/superlizhao/p/8944377.html)
+- [JavaScript immediately invoked function expressions](https://circleci.com/blog/ci-cd-for-js-iifes)
 
 ## CSS
 - [A History of CSS Through Fifteen Years of 24 ways](https://24ways.org/2019/a-history-of-css-through-15-years-of-24-ways)
