@@ -53,6 +53,7 @@
 - [微前端概念](https://swearer23.github.io/micro-frontends)
 - [qiankun 技术圆桌](https://www.yuque.com/kuitos/gky7yw)
 - [微前端的红宝书 single-spa](https://zh-hans.single-spa.js.org)
+- [Microfrontends: Microservices for the Frontend](https://semaphoreci.com/blog/microfrontends)
 
 ## Tools
 - [用来解析URL——qs](https://github.com/ljharb/qs)
