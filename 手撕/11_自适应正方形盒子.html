@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="square-box">
+        <div class="content">
+            <!-- 这里是盒子内容 -->
+        </div>
+    </div>
+
+    <style>
+        .square-box {
+            position: relative;
+            width: 100%;
+            padding-bottom: 100%;
+            /* 使用百分比的 padding 来创建正方形占位 */
+            background-color: lightgray;
+            overflow: hidden;
+        }
+
+        .content {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            /* 这里可以设置盒子内容的样式 */
+        }
+    </style>
+</body>
+
+</html>

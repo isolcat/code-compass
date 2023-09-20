@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="moving-block"></div>
+
+    <style>
+        .moving-block {
+            width: 50px;
+            height: 50px;
+            background-color: blue;
+            position: relative;
+            left: 0;
+            transition: left 1s ease;
+            /* 使用过渡来平滑改变 left 属性 */
+        }
+
+        .moving-block.move {
+            left: 200px;
+            /* 移动的目标位置 */
+        }
+    </style>
+    <script>
+        // 等待页面加载完成
+        window.addEventListener('load', () => {
+            // 添加 .move 类以触发动画
+            const movingBlock = document.querySelector('.moving-block');
+            movingBlock.classList.add('move');
+        });
+
+    </script>
+</body>
+
+</html>

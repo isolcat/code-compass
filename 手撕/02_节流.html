@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="box" draggable="true"></div>
+
+    </style>
+    <script>
+        const boxDOM = document.querySelector('.box');
+        function throttle(fn) {
+            let timer = null;
+            return function () {
+                if (timer) {
+                    return;
+                }
+                timer = setTimeout(() => {
+                    fn();
+                    timer = null;
+                }, 1000);
+            };
+        }
+        boxDOM.addEventListener(
+            'drag',
+            throttle(function (e) {
+                console.log('test');
+            })
+        );
+
+    </script>
+    <script>
+        const boxDOM1=document.querySelector('.box')
+        function throttle(fn){
+            let timer=null
+            return function(){
+                if(timer){
+                    return
+                }
+                timer=setTimeout(()=>{
+                    fn();
+                    timer=null//让每次执行完成后再调用定时器
+                },1000)
+            }
+        }
+    </script>
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: black;
+        }
+    </style>
+</body>
+
+</html>

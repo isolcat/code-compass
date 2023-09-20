@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    /*
+    {
+tag: 'DIV',
+attrs:{
+id:'app'
+},
+children: [
+{
+  tag: 'SPAN',
+  children: [
+    { tag: 'A', children: [] }
+  ]
+},
+{
+  tag: 'SPAN',
+  children: [
+    { tag: 'A', children: [] },
+    { tag: 'A', children: [] }
+  ]
+}
+]
+}
+// 把上诉虚拟Dom转化成下方真实Dom
+<div id="app">
+<span>
+<a></a>
+</span>
+<span>
+<a></a>
+<a></a>
+</span>
+</div>
+    */
+
+    // 递归将虚拟 DOM 转化成真实 DOM
+    // 递归将虚拟 DOM 转化成真实 DOM
+    function render(vnode) {
+      // 如果虚拟 DOM 是字符串，创建文本节点并返回
+      if (typeof vnode === 'string') {
+        return document.createTextNode(vnode);
+      }
+      // 创建真实 DOM 元素
+      const element = document.createElement(vnode.tag);
+
+      // 设置 vnode 中的属性到 DOM 元素
+      if (vnode.attrs) {
+        // 遍历属性
+        Object.keys(vnode.attrs).forEach((key) => {
+          const value = vnode.attrs[key];
+          element.setAttribute(key, value);
+        });
+      }
+
+      // 添加文本内容到真实 DOM 元素
+      if (vnode.text) {
+        element.appendChild(document.createTextNode(vnode.text));
+      }
+
+      // 递归地处理虚拟 DOM 中的子节点，并添加到真实 DOM 元素中
+      for (const child of vnode.children || []) {
+        element.appendChild(render(child));
+      }
+      return element;
+    }
+
+    const vnode = {
+      tag: 'DIV',
+      attrs: {
+        id: 'app'
+      },
+      text: 'Hello, this is some text content.', // 添加文本内容
+      children: [
+        {
+          tag: 'SPAN',
+          text: 'This is a span with a text node as a child.',
+          children: [
+            { tag: 'A', children: [] }
+          ]
+        },
+        {
+          tag: 'SPAN',
+          text: 'This is a span with a text node as a child.',
+          children: [
+            { tag: 'A', children: [] },
+            { tag: 'A', children: [] }
+          ]
+        }
+      ]
+    };
+
+    const realDOM = render(vnode);
+
+    // 将真实 DOM 对象添加到文档中
+    document.body.appendChild(realDOM);
+
+
+  </script>
+</body>
+
+</html>

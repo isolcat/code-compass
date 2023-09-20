@@ -1,0 +1,29 @@
+function myInstanceof(left, right) {
+    let proto = Object.getPrototypeOf(left);//获取对象的原型
+    prototype = right.prototype;//获取构造函数的原型
+
+    //判断构造函数的原型是否在对象的原型链上
+    while (true) {
+        if (proto === null) {
+            return false;
+        }
+        if (proto === prototype) {
+            return true;
+        }
+        //将当前原型的原型（即父原型）赋值给 proto，以便继续检查原型链中的下一个原型
+        proto = Object.getPrototypeOf(proto);
+    }
+}
+// 定义一个简单的构造函数
+function Person(name) {
+    this.name = name;
+}
+
+// 创建一个实例
+const personInstance = new Person('John');
+
+// 使用自定义的 myInstanceof 函数进行测试
+const isInstanceOfPerson = myInstanceof(personInstance, Person);
+
+// 输出测试结果
+console.log(isInstanceOfPerson); // 输出: true

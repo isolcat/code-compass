@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        Function.prototype.myCall = function (context) {
+            //判断调用对象
+            if (typeof this !== 'function') {
+                console.error('type error')
+            }
+            //获取参数 处理参数 ,截取第一个参数之后的所有参数
+            let args = [...arguments].slice(1)
+
+            result = null
+            //判断context是否传入，如果未传入则设置为window
+            context = context || window
+            //将调用函数设为对象的方法
+            context.fn = this
+            //使用上下文对象调用这个方法，并保存返回结果
+            result = context.fn(...args)
+            //删除刚刚新增的属性
+            delete context.fn
+            //返回结果
+            return result
+        }
+        //测试一下
+        function person() {
+            console.log(this.name);
+        }
+        var cat = {
+            name: 'isolcat',
+        };
+
+        person.myCall(cat);//isolcat
+    </script>
+
+    <script>
+        Function.prototype.myCall = function (context) {
+            // 判断调用的对象是否为function
+            if (typeof this !== 'function') {
+                console.error('type error')
+            }
+
+            //获取参数处理参数
+            let args = [...arguments].slice(1)
+            result = null
+            // 判断context是否为空
+            context = context || window
+            //将调用函数设置为对象(将函数作为上下文的一个属性)
+            context.fn = this
+            // 使用上下文对象调用这个方法,并保存返回结果
+            result = context.fn(...args)
+            delete context.fn//删除刚刚新增的属性
+            return result
+        }
+
+        function person() {
+            console.log(this.name)
+        }
+
+        /*
+        上下文对象（Context Object）是指函数在执行过程中所处的环境或作用域。在 JavaScript 中，每个函数都有一个关联的上下文，决定了函数内部的 this 关键字的值，以及函数能够访问的变量和函数。
+        */
+        //cat来做person的上下文对象
+        var cat = {
+            name: 'isolcat'
+        }
+        person.myCall(cat)
+
+
+        //手写apply
+        Function.prototype.myApply = function (context, args) {
+            // 判断调用对象是否为函数
+            if (typeof this !== 'function') {
+                console.log('type error')
+            }
+            let result = null
+            // 判断context是否存在
+            context = context || window
+            //将函数作为上下文对象的一个属性
+            context.fn = this
+            //使用上下文来调用这个方法，并返回结果
+            //这部分和之前的call的唯一区别是多了一个args的参数作为判断（数组
+            if (args) {
+                result = context.fn(...args)
+            } else {
+                result = context.fn()
+            }
+            delete context.fn
+            return result
+        }
+        let obj = {
+            name: 'test'
+        }
+        function add(a, b, c) {
+            console.log(`${a} + ${b} + ${c} = ${a + b + c}`);
+        }
+        add.myApply(obj, [1, 2, 3])
+
+
+        //手写bind
+        Function.prototype.myBind = function (context) {
+            //判断是否为函数
+            if (typeof this !== 'function') {
+                console.log('error')
+            }
+            //获取参数(这里和call一样的)
+            var args = [...arguments].slice(1)
+            fn = this
+            //返回一个函数
+            return function Fn() {
+                //根据调用方式绑定不一样的值
+                return fn.apply(
+                    //用于确定调用闭包函数的方式
+                    this instanceof Fn ? this : context,
+                    //之前通过 myBind 方法传递的参数 args 与调用闭包函数时传递的参数 arguments 进行合并，最终传递给原始函数作为参数
+                    args.concat(...arguments)
+                )
+            }
+        }
+        const obj1 = {
+            name: 'objName',
+        };
+
+        function func(a, b, c) {
+            console.log(this.name);
+            console.log(a, b, c);
+        }
+
+        const bindFunc = func.myBind(obj1, 1, 2);
+
+        bindFunc(3);
+    </script>
+</body>
+
+</html>
