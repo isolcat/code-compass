@@ -69,6 +69,7 @@
 - [Chrome Developers](https://developer.chrome.com)
 - [21+ Browser Dev Tools & Tips You Need To Know](https://www.youtube.com/watch?v=TcTSqhpm80Y)
 - [编程时光](https://www.coding-time.cn)
+- [AutoBangumi：自动追番，解放双手](https://www.himiku.com/archives/auto-bangumi.html)
 
 ## 前端优化
 - [自动化注入骨架屏](https://segmentfault.com/a/1190000040463903)
