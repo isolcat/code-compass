@@ -27,6 +27,7 @@
 - [JavaScript 侦测手机浏览器的五种方法](https://www.ruanyifeng.com/blog/2021/09/detecting-mobile-browser.html)
 - [JS-两个空数组为什么不相等?](https://www.cnblogs.com/superlizhao/p/8944377.html)
 - [JavaScript immediately invoked function expressions](https://circleci.com/blog/ci-cd-for-js-iifes)
+- [Interview: Can You Stop “forEach” in JavaScript?](https://javascript.plainenglish.io/interview-can-you-stop-foreach-in-javascript-724d9d76fd72)
 
 ## CSS
 - [A History of CSS Through Fifteen Years of 24 ways](https://24ways.org/2019/a-history-of-css-through-15-years-of-24-ways)
