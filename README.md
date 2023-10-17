@@ -71,6 +71,7 @@
 - [21+ Browser Dev Tools & Tips You Need To Know](https://www.youtube.com/watch?v=TcTSqhpm80Y)
 - [编程时光](https://www.coding-time.cn)
 - [AutoBangumi：自动追番，解放双手](https://www.himiku.com/archives/auto-bangumi.html)
+- [十分鐘快速入門上手 CodePen](https://israynotarray.com/other/20201020/1425713503)
 
 ## 前端优化
 - [自动化注入骨架屏](https://segmentfault.com/a/1190000040463903)
