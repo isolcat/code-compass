@@ -38,6 +38,7 @@
 - [不要再问我移动适配的问题了](https://segmentfault.com/a/1190000017784801)
 - [使用Flexible实现手淘H5页面的终端适配](https://github.com/amfe/article/issues/17)
 - [重新构想原子化 CSS](https://antfu.me/posts/reimagine-atomic-css-zh)
+- [Flex 布局教程：语法篇](https://www.ruanyifeng.com/blog/2015/07/flex-grammar.html)
 
 ## Google Plugin
 - [Page Lifecycle API](https://developer.chrome.com/blog/page-lifecycle-api)
