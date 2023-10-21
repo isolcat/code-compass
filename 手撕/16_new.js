@@ -1,13 +1,13 @@
 function myNew(fn, ...args) {
     //定义一个空对象
     const obj = {};
-    //将空对象的原型指向构造函数的原型
+    //为步骤 1 新创建的对象添加属性 __proto__，将该属性链接至构造函数的原型对象
     obj.__proto__ = fn.prototype;
-    //将构造函数的this指向空对象
-    fn.apply(obj, args);
-    return obj;
+    //将步骤 1 新创建的对象作为 this 的上下文
+    const result = fn.apply(obj, args);
+    //判断函数的返回值类型，如果是值类型，返回创建的对象。如果是引用类型，就返回这个引用类型的对象
+    return result instanceof Object ? result : obj;
 }
-
 //测试代码
 // 定义一个构造函数
 function Person(name, age) {
