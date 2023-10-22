@@ -6,3 +6,23 @@ Promise.MyRace = function (promises) {
         }
     })
 }
+
+// test
+let p1 = new Promise((resolve, reject) => {
+    setTimeout(() => {
+        resolve("Promise 1 resolved");
+    }, 1000);
+});
+let p2 = new Promise((resolve, reject) => {
+    setTimeout(() => {
+        resolve("Promise 2 resolved")
+    }, 2000)
+})
+
+Promise.myRace([p1, p2])
+    .then(result => {
+        console.log("resolved:", result)
+    })
+    .catch(error => {
+        console.log("error:", error)
+    })
