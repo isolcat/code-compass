@@ -4,6 +4,7 @@ let swap = function (arr, i, j) {
     //es6解构语法
     [arr[i], arr[j]] = [arr[j], arr[i]]
 }
+//将数组分割成两部分：一部分包含小于或等于基准值的元素，另一部分包含大于基准值的元素
 function partition(arr, i, j) {
     let p = arr[i]//arr[i]作为基准值
     let index = i
