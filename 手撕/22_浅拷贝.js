@@ -7,9 +7,7 @@ function shallowCopy(object) {
 
     // 遍历 object，并且判断是 object 的属性才拷贝
     for (let key in object) {
-        if (object.hasOwnProperty(key)) {
-            newObject[key] = object[key];
-        }
+        newObject[key] = object[key];
     }
 
     return newObject;
@@ -26,6 +24,7 @@ const originalObj = {
 const clonedObj = shallowCopy(originalObj);
 
 clonedObj.b.c = 5;
+clonedObj.a= 5;
 clonedObj.b.d[0] = 6;
 
 //结果会互相干扰
