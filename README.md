@@ -1,4 +1,4 @@
-![19BA7A00](https://github.com/isolcat/code-compass/assets/76111612/f1d1ca8d-0930-4641-9962-bf4f4d585c8b)# code-compass
+# code-compass
 🤩code-compass, providing direction and assistance for front-end developers
 
 ## React
