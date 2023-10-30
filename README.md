@@ -1,4 +1,4 @@
-# code-compass
+![19BA7A00](https://github.com/isolcat/code-compass/assets/76111612/f1d1ca8d-0930-4641-9962-bf4f4d585c8b)# code-compass
 🤩code-compass, providing direction and assistance for front-end developers
 
 ## React
@@ -91,6 +91,7 @@
 ## 网络安全
 - [前端安全系列（一）：如何防止XSS攻击？](https://tech.meituan.com/2018/09/27/fe-security.html)
 - [前端安全系列（二）：如何防止CSRF攻击？](https://tech.meituan.com/2018/10/11/fe-security-csrf.html)
+- [什么是端到端加密 (E2EE)？](https://www.cloudflare.com/zh-cn/learning/privacy/what-is-end-to-end-encryption)
 
 ## 算法
 - [Diff Strategies](https://neil.fraser.name/writing/diff)
