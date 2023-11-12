@@ -31,6 +31,7 @@
 - [[JavaScript] slice()、splice()、split() 傻傻分不清](https://medium.com/@bebebobohaha/slice-splice-split-%E5%82%BB%E5%82%BB%E5%88%86%E4%B8%8D%E6%B8%85-46d9c8992729)
 - [Promise看输出](https://github.com/LinDaiDai/niubility-coding-js/blob/master/JavaScript/%E5%BC%82%E6%AD%A5/%E8%A6%81%E5%B0%B1%E6%9D%A545%E9%81%93Promise%E9%9D%A2%E8%AF%95%E9%A2%98%E4%B8%80%E6%AC%A1%E7%88%BD%E5%88%B0%E5%BA%95.md)
 - [Shadow DOM](https://borninsummer.com/Practice-in-Front-End-Engineering-and-Components-Development/part-3/chapter-3-web-components/article-2-shadow-dom.html)
+- [Promises/A+](https://promisesaplus.com)
 
 ## CSS
 - [A History of CSS Through Fifteen Years of 24 ways](https://24ways.org/2019/a-history-of-css-through-15-years-of-24-ways)
