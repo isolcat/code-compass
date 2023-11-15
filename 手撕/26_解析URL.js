@@ -1,31 +1,30 @@
-let url = 'http://www.domain.com/?user=anonymous&id=123&id=456&city=%E5%8C%97%E4%BA%AC&enabled';
-parseParam(url)
-/* 
-{ user: 'anonymous',
-  id: [ 123, 456 ], // 重复出现的 key 要组装成数组，能被转成数字的就转成数字类型
-  city: '北京', // 中文需解码
-  enabled: true, // 未指定值得 key 约定为 true
-}
-*/
-
 function parseParam(url) {
-    const paramsStr = /.+\?(.+)$/.exec(url)[1]; // 将 ? 后面的字符串取出来
-    const paramsArr = paramsStr.split('&'); // 将字符串以 & 分割后存到数组中
-    let paramsObj = {};
-    // 将 params 存到对象中
-    paramsArr.forEach(param => {
-        if (/=/.test(param)) { // 处理有 value 的参数
-            let [key, val] = param.split('='); // 分割 key 和 value
-            val = decodeURIComponent(val); // 解码
-            val = /^\d+$/.test(val) ? parseFloat(val) : val; // 判断是否转为数字
-            if (paramsObj.hasOwnProperty(key)) { // 如果对象有 key，则添加一个值
-                paramsObj[key] = [].concat(paramsObj[key], val);
-            } else { // 如果对象没有这个 key，创建 key 并设置值
-                paramsObj[key] = val;
+    const paramsArr = url.split('?')[1]?.split('&') || [];
+    const result = {};
+
+    paramsArr.forEach((param) => {
+        const [key, value] = param.split('=');
+
+        if (value === undefined) {
+            // 如果没有指定值，将键对应的值设为 true
+            result[key] = true;
+        } else {
+            if (result[key] === undefined) {
+                // 如果键第一次出现，直接设置为解码后的值或者转换成数字
+                result[key] = !isNaN(value) ? Number(value) : decodeURIComponent(value);
+            } else {
+                // 如果键已经出现过，将其值转换成数组，然后添加新的值
+                if (!Array.isArray(result[key])) {
+                    result[key] = [result[key]];
+                }
+                result[key].push(!isNaN(value) ? Number(value) : decodeURIComponent(value));
             }
-        } else { // 处理没有 value 的参数
-            paramsObj[param] = true;
         }
-    })
-    return paramsObj;
+    });
+
+    return result;
 }
+
+const url = "http://www.domain.com/?user=jack&id=123&id=456&city=%E5%8C%97%E4%BA%AC&enabled";
+const parsedParams = parseParam(url);
+console.log(parsedParams);
