@@ -98,6 +98,7 @@
 ## 算法
 - [Diff Strategies](https://neil.fraser.name/writing/diff)
 - [一套拳法👊刷掉n个遍历树的问题](https://leetcode.cn/problems/binary-tree-level-order-traversal/solutions/215223/yi-tao-quan-fa-shua-diao-nge-bian-li-shu-de-wen-8)
+- [二叉树的遍历算法](https://github.com/azl397985856/leetcode/blob/master/thinkings/binary-tree-traversal.md)
 
 ## 低代码
 - [低代码渲染那些事](https://mp.weixin.qq.com/s/yqYey76qLGYPfDtpGkVFfA)
