@@ -12,6 +12,7 @@
 - [react原理解析](https://react.iamkasong.com)
 - [理解 React，但不理解 Redux，该如何通俗易懂的理解 Redux？](https://www.zhihu.com/question/41312576/answer/90782136)
 - [Redux Tutorial: An Overview and Walkthrough](https://www.taniarascia.com/redux-react-guide)
+- [React 效能優化 — 聊天室刷起來](https://medium.com/@kerorojason/react-%E6%95%88%E8%83%BD%E5%84%AA%E5%8C%96-%E8%81%8A%E5%A4%A9%E5%AE%A4%E5%88%B7%E8%B5%B7%E4%BE%86-61fa70aeb7cd)
 
 ## Vue
 - [Vue官方文档里没告诉你的神秘钩子——@hook](https://juejin.cn/post/7006616545119961101)
