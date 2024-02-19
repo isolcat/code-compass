@@ -112,3 +112,6 @@
 
 ## GPTs
 - [Front-End Interviewer](https://chat.openai.com/g/g-qmmhR1QRU-front-end-interviewer)
+
+## 面试
+- [面试自我介绍5句话公式](https://juejin.cn/post/7067707781716901901?searchId=20240216170005CAF961AEC3F3AE5E34CE)
