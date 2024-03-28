@@ -21,6 +21,7 @@
 - [React、Vue2、Vue3的三种Diff算法](https://juejin.cn/post/6919376064833667080)
 - [What is the difference between ref, toRef and toRefs](https://stackoverflow.com/questions/66585688/what-is-the-difference-between-ref-toref-and-torefs)
 - [【Vue 3】ref 跟 reactive 我該怎麼選!?](https://medium.com/i-am-mike/vue-3-ref-跟-reactive-我該怎麼選-2fb6b6735a3c)
+- [Vue3 Compiler 优化细节，如何手写高性能渲染函数](https://zhuanlan.zhihu.com/p/150732926)
 
 ## JavaScript
 - [如何模拟实现JS的new操作符](https://www.freecodecamp.org/chinese/news/javascript-new-operator)
