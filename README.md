@@ -36,6 +36,7 @@
 - [Shadow DOM](https://borninsummer.com/Practice-in-Front-End-Engineering-and-Components-Development/part-3/chapter-3-web-components/article-2-shadow-dom.html)
 - [Promises/A+](https://promisesaplus.com)
 - [How to write your own Virtual DOM](https://medium.com/@deathmood/how-to-write-your-own-virtual-dom-ee74acc13060)
+- [深度剖析：如何实现一个 Virtual DOM 算法](https://github.com/livoras/blog/issues/13)
 
 ## CSS
 - [A History of CSS Through Fifteen Years of 24 ways](https://24ways.org/2019/a-history-of-css-through-15-years-of-24-ways)
