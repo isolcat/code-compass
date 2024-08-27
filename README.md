@@ -88,6 +88,9 @@
 - [用 Ollama 轻松玩转本地大模型](https://sspai.com/post/85193)
 - [目前使用下来还不错的AI搜索](https://datong.info/ui/index.html)
 - [主打隐私的DuckDuckgo出品的AI chat](https://duckduckgo.com/aichat)
+- [文本私有分享](https://pasteme.cn)
+- [Let Me DuckDuckGo That For You](https://lmddgtfy.net)
+- [CanIUse](https://caniuse.com)
 
 ## 前端优化
 - [自动化注入骨架屏](https://segmentfault.com/a/1190000040463903)
