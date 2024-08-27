@@ -105,6 +105,9 @@
 - [前端安全系列（二）：如何防止CSRF攻击？](https://tech.meituan.com/2018/10/11/fe-security-csrf.html)
 - [什么是端到端加密 (E2EE)？](https://www.cloudflare.com/zh-cn/learning/privacy/what-is-end-to-end-encryption)
 
+## 代码调试
+- [聊聊网页断点调试及其扩展](https://juejin.cn/post/7301472893114892297?searchId=20240827105357958C2F5B3CB246D026B3)
+
 ## 算法
 - [Diff Strategies](https://neil.fraser.name/writing/diff)
 - [一套拳法👊刷掉n个遍历树的问题](https://leetcode.cn/problems/binary-tree-level-order-traversal/solutions/215223/yi-tao-quan-fa-shua-diao-nge-bian-li-shu-de-wen-8)
