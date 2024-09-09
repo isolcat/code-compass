@@ -114,6 +114,7 @@
 
 ## 代码调试
 - [聊聊网页断点调试及其扩展](https://juejin.cn/post/7301472893114892297?searchId=20240827105357958C2F5B3CB246D026B3)
+- [11+ chrome高级调试技巧](https://segmentfault.com/a/1190000041683548)
 
 ## 算法
 - [Diff Strategies](https://neil.fraser.name/writing/diff)
